@@ -17,7 +17,7 @@ mysqli_close($conn);
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nelayan Part Time Job</title>
+	<title>Nelayan Partner Job</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
