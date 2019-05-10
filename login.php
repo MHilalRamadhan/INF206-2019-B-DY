@@ -22,7 +22,7 @@ mysqli_close($conn);
 </head>
 <body>
 
-	<h1>SELAMAT DATANG DI<br/>Nelayan Part Time Job</h1>
+	<h1>NELAYAN<br/>Partner Job</h1>
 
 	<div class="kotak_login">
 		<p class="tulisan_login">Silahkan login</p>
