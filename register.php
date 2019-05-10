@@ -40,14 +40,7 @@ mysqli_close($conn);
 			<label>Email</label>
 			<input type="text" name="email" class="form_login" placeholder="Email...">
 
-			<label>Alamat</label>
-			<input type="text" name="alamat" class="form_login" placeholder="Alamat...">
-
-			<label>Umur</label>
-			<input type="text" name="umur" class="form_login" placeholder="Umur...">
-
-			<label>Jenis Kelamin</label>
-			<input type="text" name="email" class="form_login" placeholder="Jenis Kelamin...">
+			
 
 			<label>Buat Password</label>
 			<input type="text" name="password" class="form_login" placeholder="Buat Password...">
