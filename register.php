@@ -13,6 +13,7 @@ if (!$conn) {
 }
 echo "Koneksi berhasil";
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,7 +37,6 @@ ergdsfgds
 			<label>No HP</label>
 			<input type="int" name="no_hp" class="form_login" placeholder="No HP...">
 
-
 			<label>Alamat</label>
 			<input type="text" name="alamat" class="form_login" placeholder="Alamat...">
 
@@ -44,16 +44,21 @@ ergdsfgds
 			<input type="int" name="umur" class="form_login" placeholder="Umur...">
 
 			<label>Jenis Kelamin</label>
-			<input type="text" name="jk" class="form_login" placeholder="Jenis Kelamin...">
-
+			<br>
+			<br>
+			<select name="jk" id="jk">
+                <option>Pilih Jenis Kelamin</option>
+                <option value="laki-laki">Laki-laki</option>
+                <option value="perempuan">Perempuan</option>
+            </select>
+            <br>
+            <br>
 			<label>Buat Password</label>
 			<input type="text" name="password" class="form_login" placeholder="Buat Password...">
-			<label><input id="checkbox" type="checkbox"> Tampilkan password</label>
 
 			<label>Konfirmasi Password</label>
 			<input type="text" name="konfirmasipassword" class="form_login" placeholder="Konfirmasi Password...">
-			<label><input id="checkbox" type="checkbox"> Tampilkan password</label>
-
+			
 			<input type="submit" class="tombol_login" name="submit" value="DAFTAR">
 
 			<br/>
