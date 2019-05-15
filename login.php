@@ -17,12 +17,12 @@ mysqli_close($conn);
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nelayan Part Time Job</title>
+	<title>Nelayan Partner Job</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-	<h1>SELAMAT DATANG DI<br/>Nelayan Part Time Job</h1>
+	<h1>NELAYAN<br/>Partner Job</h1>
 
 	<div class="kotak_login">
 		<p class="tulisan_login">Silahkan login</p>
@@ -43,6 +43,18 @@ mysqli_close($conn);
 			</center>
 		</form>
 		
+		<?php 
+			if (isset($_POST['submit'])) {
+				
+				$conn->query("INSERT INTO tabel_login VALUES('$_POST[nama]', '$_POST[password]')");	
+
+			echo "<div class='btn btn-success'>";
+			echo "Data disimpan";
+			echo "</div>";
+			}
+
+		?>
+
 	</div>
 
 
