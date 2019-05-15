@@ -43,6 +43,18 @@ mysqli_close($conn);
 			</center>
 		</form>
 		
+		<?php 
+			if (isset($_POST['submit'])) {
+				
+				$conn->query("INSERT INTO tabel_login VALUES('$_POST[nama]', '$_POST[password]')");	
+
+			echo "<div class='btn btn-success'>";
+			echo "Data disimpan";
+			echo "</div>";
+			}
+
+		?>
+
 	</div>
 
 
