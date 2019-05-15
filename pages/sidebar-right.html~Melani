@@ -8,11 +8,7 @@ Licence URI: http://www.os-templates.com/template-terms
 -->
 <html>
 <head>
-<<<<<<< HEAD
-<title>Nelayan | partner job | Peluang kerja</title>
-=======
-<title>Luthum | Pages | Full Width</title>
->>>>>>> Melani
+<title>Luthum | Pages | Sidebar Right</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -26,13 +22,8 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <div class="fl_left">
       <ul class="nospace">
-<<<<<<< HEAD
-        <li><i class="fa fa-phone"></i> +62 823 8941 1755</li>
-        <li><i class="fa fa-envelope-o"></i> Nelayanpartnerjob.com</li>
-=======
         <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
         <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
->>>>>>> Melani
       </ul>
     </div>
     <div class="fl_right">
@@ -57,45 +48,19 @@ Licence URI: http://www.os-templates.com/template-terms
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
-<<<<<<< HEAD
-        <h1><a href="../index.html">NELAYAN</a></h1>
-        <p>Partner Job</p>
-=======
         <h1><a href="../index.html">Luthum</a></h1>
         <p>Vivamus rutrum</p>
->>>>>>> Melani
       </div>
       <!-- ################################################################################################ -->
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-<<<<<<< HEAD
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a class="drop" href="#">Cari Kerja</a>
-            <ul>
-              <li><a href="daftarpelabuhan.html">Daftar Pelabuhan</a></li>
-            </ul>
-          </li>
-          <li><a class="drop" href="#">Peluang Kerja</a>
-            <ul>
-              <li><a href="full-width.html">Mengangkut ikan</a></li>
-              <li><a class="drop" href="#">Membersihkan</a>
-                <ul>
-                  <li><a href="full-width.html">Kapal</a></li>
-                  <li><a href="full-width.html">Ikan</a></li>
-                  <li><a href="full-width.html">Lainnya</a></li>
-                </ul>
-              </li>
-              <li><a href="full-width.html">Memilah jenis ikan</a></li>
-            </ul>
-          </li>
-=======
           <li><a href="../index.html">Home</a></li>
           <li class="active"><a class="drop" href="#">Pages</a>
             <ul>
               <li><a href="gallery.html">Gallery</a></li>
-              <li class="active"><a href="full-width.html">Full Width</a></li>
+              <li><a href="full-width.html">Full Width</a></li>
               <li><a href="sidebar-left.html">Sidebar Left</a></li>
-              <li><a href="sidebar-right.html">Sidebar Right</a></li>
+              <li class="active"><a href="sidebar-right.html">Sidebar Right</a></li>
               <li><a href="basic-grid.html">Basic Grid</a></li>
             </ul>
           </li>
@@ -114,7 +79,6 @@ Licence URI: http://www.os-templates.com/template-terms
           </li>
           <li><a href="#">Link Text</a></li>
           <li><a href="#">Link Text</a></li>
->>>>>>> Melani
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -143,13 +107,9 @@ Licence URI: http://www.os-templates.com/template-terms
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div class="content"> 
+    <div class="content three_quarter first"> 
       <!-- ################################################################################################ -->
-<<<<<<< HEAD
-      <h1>&lt;h1&gt; to &lt;h6&gt; - DAFTAR PEKERJAAN YANG TERSEDIA</h1>
-=======
       <h1>&lt;h1&gt; to &lt;h6&gt; - Headline Colour and Size Are All The Same</h1>
->>>>>>> Melani
       <img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">
       <p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.</p>
       <p>Dapiensociis <a href="#">temper donec auctortortis cumsan</a> et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem.</p>
@@ -197,9 +157,6 @@ Licence URI: http://www.os-templates.com/template-terms
         </table>
       </div>
       <div id="comments">
-<<<<<<< HEAD
-        <ul>   
-=======
         <h2>Comments</h2>
         <ul>
           <li>
@@ -272,7 +229,62 @@ Licence URI: http://www.os-templates.com/template-terms
       </div>
       <!-- ################################################################################################ -->
     </div>
->>>>>>> Melani
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="sidebar one_quarter"> 
+      <!-- ################################################################################################ -->
+      <h6>Lorem ipsum dolor</h6>
+      <nav class="sdb_holder">
+        <ul>
+          <li><a href="#">Navigation - Level 1</a></li>
+          <li><a href="#">Navigation - Level 1</a>
+            <ul>
+              <li><a href="#">Navigation - Level 2</a></li>
+              <li><a href="#">Navigation - Level 2</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Navigation - Level 1</a>
+            <ul>
+              <li><a href="#">Navigation - Level 2</a></li>
+              <li><a href="#">Navigation - Level 2</a>
+                <ul>
+                  <li><a href="#">Navigation - Level 3</a></li>
+                  <li><a href="#">Navigation - Level 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">Navigation - Level 1</a></li>
+        </ul>
+      </nav>
+      <div class="sdb_holder">
+        <h6>Lorem ipsum dolor</h6>
+        <address>
+        Full Name<br>
+        Address Line 1<br>
+        Address Line 2<br>
+        Town/City<br>
+        Postcode/Zip<br>
+        <br>
+        Tel: xxxx xxxx xxxxxx<br>
+        Email: <a href="#">contact@domain.com</a>
+        </address>
+      </div>
+      <div class="sdb_holder">
+        <article>
+          <h6>Lorem ipsum dolor</h6>
+          <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed.</p>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor sit</a></li>
+            <li>Etiam vel sapien et</li>
+            <li><a href="#">Etiam vel sapien et</a></li>
+          </ul>
+          <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed. Condimentumsantincidunt dui mattis magna intesque purus orci augue lor nibh.</p>
+          <p class="more"><a href="#">Continue Reading &raquo;</a></p>
+        </article>
+      </div>
+      <!-- ################################################################################################ -->
+    </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
@@ -288,24 +300,6 @@ Licence URI: http://www.os-templates.com/template-terms
     <footer id="footer" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div class="one_quarter first">
-<<<<<<< HEAD
-        <h6 class="title">Tujuan Nelayan Partner Job</h6>
-        <p>Membantu tim nelayan yang membutuhkan pekerja paruh waktu yang bekerja dengannya.</p>
-        <p>Membantu orang yang ingin mendapatkan pekerjaan sampingan sebagai pekerja paruh waktu dengan nelayan.</p>
-      </div>
-      <div class="one_quarter">
-        <h6 class="title">Informasi team</h6>
-        <ul class="nospace linklist contact">
-          <li><i class="fa fa-map-marker"></i>
-            <address>
-            Laboratorium Terpadu Universitas Syiah Kuala
-            </address>
-          </li>
-          <li><i class="fa fa-phone"></i> +62 823 8941 1755<br>
-            +62 813 7053 2552</li>
-          <li><i class="fa fa-fax"></i> +62 852 3016 6922<br> +62 812 3796 5745</li>
-          <li><i class="fa fa-envelope-o"></i> Nelayanpartnerjob@gmail.com</li>
-=======
         <h6 class="title">Consectetur adipiscing</h6>
         <p>Praesent non consequat mi vitae rhoncus tortor proin imperdiet euismod pretium maecenas ac neque malesuada mauris hendrerit cursus.</p>
         <p>Consequat leo eu ligula vulputate auctor cras gravida quis quam vel dignissim nullam lobortis justo ac congue.</p>
@@ -322,28 +316,11 @@ Licence URI: http://www.os-templates.com/template-terms
             +00 (123) 456 7890</li>
           <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
           <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
->>>>>>> Melani
         </ul>
       </div>
       <div class="one_quarter">
         <h6 class="title">Non vestibulum rutrum</h6>
         <ul class="nospace linklist">
-<<<<<<< HEAD
-          <li><a href="#">Melani Mawaddah (1708107010011)</a></li>
-          <li><a href="#">Liza Maiyuni    (1708107010032)</a></li>
-          <li><a href="#">M.Hilal Ramadhan(1708107010064)</a></li>
-          <li><a href="#">Brigitta Samkakai(1708107010067)</a></li>
-        </ul>
-      </div>
-      <div class="one_quarter">
-        <h6 class="title">Pembuatan Website Nelayan Partner Job</h6>
-        <ul class="nospace linklist">
-          <li>
-            <article>
-              <h6 class="nospace font-x1"><a href="#">Mulai Dirancang</a></h6>
-              <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> Februari 2019</time>
-              <p class="nospace">Merancang software requirement sesuai kebutuhan dengan metode agile&hellip;</p>
-=======
           <li><a href="#">Varius nullam a enim ac</a></li>
           <li><a href="#">Justo iaculis congue eu vel</a></li>
           <li><a href="#">Aliquam pulvinar fermentum</a></li>
@@ -359,20 +336,13 @@ Licence URI: http://www.os-templates.com/template-terms
               <h6 class="nospace font-x1"><a href="#">Fermentum mauris</a></h6>
               <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
               <p class="nospace">Sit amet pharetra mauris eros ut turpis curabitur molestie&hellip;</p>
->>>>>>> Melani
             </article>
           </li>
           <li>
             <article>
-<<<<<<< HEAD
-              <h6 class="nospace font-x1"><a href="#">Mulai Dibuat</a></h6>
-              <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> Maret 2019</time>
-              <p class="nospace">Menerjemahkan software requirement ke dalam bahasa pemrograman&hellip;</p>
-=======
               <h6 class="nospace font-x1"><a href="#">Enim tempor neque</a></h6>
               <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
               <p class="nospace">Hendrerit justo cras in nulla a mi aliquet tempus integer&hellip;</p>
->>>>>>> Melani
             </article>
           </li>
         </ul>
@@ -386,11 +356,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <div class="wrapper row5">
     <div id="copyright" class="hoc clear"> 
       <!-- ################################################################################################ -->
-<<<<<<< HEAD
-      <p class="fl_left">Copyright &copy; 2019 - All Rights Reserved - <a href="#">Domain Name</a></p>
-=======
       <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">Domain Name</a></p>
->>>>>>> Melani
       <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
       <!-- ################################################################################################ -->
     </div>
