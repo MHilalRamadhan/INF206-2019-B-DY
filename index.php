@@ -72,7 +72,7 @@ Licence URI: http://www.os-templates.com/template-terms
           </li>
           <li><a class="drop" href="#">Peluang Kerja</a>
             <ul>
-              <li><a href="pages/angkutikan.html">Mengangkut ikan</a></li>
+              <li><a href="pages/full-width.html">Mengangkut ikan</a></li>
               <li><a class="drop" href="#">Membersihkan</a>
                 <ul>
                   <li><a href="pages/bersihkapal.html">Kapal</a></li>
