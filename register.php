@@ -54,10 +54,10 @@ ergdsfgds
             <br>
             <br>
 			<label>Buat Password</label>
-			<input type="text" name="password" class="form_login" placeholder="Buat Password...">
+			<input type="password" name="password" class="form_login" placeholder="Buat Password...">
 
 			<label>Konfirmasi Password</label>
-			<input type="text" name="konfirmasipassword" class="form_login" placeholder="Konfirmasi Password...">
+			<input type="password" name="konfirmasipassword" class="form_login" placeholder="Konfirmasi Password...">
 			
 			<input type="submit" class="tombol_login" name="submit" value="DAFTAR">
 

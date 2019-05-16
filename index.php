@@ -12,7 +12,7 @@
    
    $session = $_SESSION["tes"];
     
-    $query  = "SELECT * FROM tabel_login WHERE nama = '$session' ";
+    $query  = "SELECT * FROM peserta WHERE username = '$session' ";
     
  
 ?>
@@ -61,12 +61,12 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');"> 
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/1.png');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
-      <div id="logo" class="fl_left">
+       <div id="logo" class="fl_left">
         <h1><a href="index.html">NELAYAN</a></h1>
         <p>Partner Job</p>
       </div>
@@ -102,7 +102,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <!-- ################################################################################################ -->
   <div id="pageintro" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <article>
+     <article>
       <p class="heading">Selamat datang di</p>
       <h2 class="heading">nelayan partner job</h2>
       <p>adalah app yang membantu nelayan dalam mencari pekerja paruh waktu yang ingin bekerja dengannya dan membantu orang yang ingin mencari pekerjaan tambahan sebagai pekerja paruh waktu dengan nelayan.</p>
@@ -149,17 +149,17 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/02.png');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/2.png');">
   <article class="hoc container"> 
     <!-- ################################################################################################ -->
-    <div class="group btmspace-30">
+   <div class="group btmspace-30">
       <div class="fl_left" style="margin-right:10px;"><img src="images/demo/foto.png" alt=""></div>
       <div class="fl_left">
         <p class="nospace font-xs">Foto Salah Satu</p>
         <h3 class="heading">Team Nelayan Partner Job</h3>
       </div>
     </div>
-    <blockquote>Nelayan partner job adalah aplikasi yang membantu para nelayan untuk mencari orang yang ingin bekerja dengannya dan akan memberi gaji sesuai kesepakatan, dan tentu aplikasi ini akan bermanfaat bagi orang yang ingin mencari pekerjaan tambahan dan yang mencari peluang lewat aplikasi ini.</blockquote>
+        <blockquote>Nelayan partner job adalah aplikasi yang membantu para nelayan untuk mencari orang yang ingin bekerja dengannya dan akan memberi gaji sesuai kesepakatan, dan tentu aplikasi ini akan bermanfaat bagi orang yang ingin mencari pekerjaan tambahan dan yang mencari peluang lewat aplikasi ini.</blockquote>
     <em class="block btmspace-50 font-xs">Team Nelayan Partner job</em>
     <footer><a class="btn inverse" href="about-us.html">View More &raquo;</a></footer>
     <!-- ################################################################################################ -->
@@ -171,19 +171,17 @@ Licence URI: http://www.os-templates.com/template-terms
 <div class="wrapper row3">
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
-    <div class="btmspace-50 center">
+   <div class="btmspace-50 center">
       <h2>Peluang Kerja</h2>
       <p>Inilah salah satu penjelasan tentang pekerjaan dengan nelayan</p>
     </div>
     <ul class="nospace group">
       <li class="one_third first">
-        <article class="excerpt"><a href="#"><img src="images/demo/320x220.png" alt=""></a>
+        <article class="excerpt"><a href="#"><img src="images/demo/gallery/bb.png" alt=""></a>
           <div class="excerpttxt">
             <h6 class="heading font-x1">Mengangkut Ikan</h6>
             <ul class="nospace inline pushright font-xs">
-              <li><i class="fa fa-calendar-o"></i></li>
-              <li><i class="fa fa-comments"></i> <a href="#"></a></li>
-              <li><i class="fa fa-eye"></i></li>
+              
             </ul>
             <p>Saat nelayan tiba ke daratan, maka ikan yang telah diisi ke dalam keranjang akan di angkut dari kapal ke atas&hellip;</p>
             <p><a href="#">Read More &raquo;</a></p>
@@ -191,13 +189,11 @@ Licence URI: http://www.os-templates.com/template-terms
         </article>
       </li>
       <li class="one_third">
-        <article class="excerpt"><a href="#"><img src="images/demo/320x220.png" alt=""></a>
+        <article class="excerpt"><a href="#"><img src="images/demo/gallery/aa.png" alt=""></a>
           <div class="excerpttxt">
             <h6 class="heading font-x1">Memilah jenis ikan</h6>
             <ul class="nospace inline pushright font-xs">
-              <li><i class="fa fa-calendar-o"></i></li>
-              <li><i class="fa fa-comments"></i> <a href="#"></a></li>
-              <li><i class="fa fa-eye"></i></li>
+              
             </ul>
             <p>Memilah jenis ikan sesuai dengan kategori, ukuran, dan sesuai permintaan nelayan tentang pemilahan ikan menurut&hellip;</p>
             <p><a href="#">Read More &raquo;</a></p>
@@ -205,13 +201,11 @@ Licence URI: http://www.os-templates.com/template-terms
         </article>
       </li>
       <li class="one_third">
-        <article class="excerpt"><a href="#"><img src="images/demo/320x220.png" alt=""></a>
+        <article class="excerpt"><a href="#"><img src="images/demo/gallery/cc.png" alt=""></a>
           <div class="excerpttxt">
             <h6 class="heading font-x1">Membersihkan kapal nelayan</h6>
             <ul class="nospace inline pushright font-xs">
-              <li><i class="fa fa-calendar-o"></i></li>
-              <li><i class="fa fa-comments"></i> <a href="#"></a></li>
-              <li><i class="fa fa-eye"></i></li>
+              
             </ul>
             <p>Setelah nelayan pulang melaut mencari ikan, kapalnya pasti berantakan dan ini adalah jenis pekerjaan yang paling&hellip;</p>
             <p><a href="#">Read More &raquo;</a></p>
@@ -225,7 +219,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/03.png');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/3.png');">
   <article class="hoc container center"> 
     <!-- ################################################################################################ -->
     <h3 class="font-x3">Kemudahan anda tujuan kami</h3>
@@ -244,7 +238,7 @@ Licence URI: http://www.os-templates.com/template-terms
       <h3 class="nospace">Informasi lebih lanjut </h3>
       <p class="nospace">Tentang Team Nelayan Partner Job, silakan klik tombol More Information disamping</p>
     </div>
-    <footer class="one_quarter"><a class="btn" href="about-us.html">Read more&raquo;</a></footer>
+    <footer class="one_quarter"><a class="btn" href="#">More Information &raquo;</a></footer>
     <!-- ################################################################################################ -->
   </section>
 </div>
@@ -252,7 +246,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Footer Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/04.png');"> 
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/4.png');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row4">
     <footer id="footer" class="hoc clear"> 
@@ -296,7 +290,7 @@ Licence URI: http://www.os-templates.com/template-terms
             </article>
           </li>
           <li>
-            <article>
+             <article>
               <h6 class="nospace font-x1"><a href="#">Mulai dibuat:</a></h6>
               <time class="font-xs block btmspace-10" datetime="2019-05-05">Thursday, 5<sup>th</sup> Maret 2045</time>
               <p class="nospace">Menerjemahkan software requirement ke dalam bahasa pemrograman&hellip;</p>
