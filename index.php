@@ -5,16 +5,8 @@
   if (!isset($_SESSION["tes"])) {
      header("Location: login.php");
   }
-
   // buka koneksi dengan MySQL
-     include("koneksi.php");
-  
-   
-   $session = $_SESSION["tes"];
-    
-    $query  = "SELECT * FROM peserta WHERE username = '$session' ";
-    
- 
+     include("koneksi.php"); 
 ?>
 
 <!DOCTYPE html>
@@ -50,8 +42,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="profil.php">klik<i class="fa fa-lg fa-home"></i></a></li>
         <li><a href="about-us.html">About</a></li>
         <li><a href="tambahjob.php">Tambah job</a></li>
-        <li><a href="login.php">Login</a></li>
-        <li><a href="register.php">Register</a></li>
+        
       </ul>
     </div>
     <!-- ################################################################################################ -->

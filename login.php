@@ -105,7 +105,7 @@ if ($pesan_error !== "") {
 echo "<div class=\"error\">$pesan_error</div>";
 }
 ?>
-<form action="index.php" method="post">
+<form action="index.html" method="post">
 <fieldset>
 <legend>Login</legend>
 <p>
@@ -119,7 +119,7 @@ value="<?php echo $username ?>">
 value="<?php echo $password?>">
 </p>
 <p>
-<input type="submit" name="submit" value="Log In">
+<input type="submit" name="submit" value="Log In" >Login</a>
 </p>
 <p>belum punya akun daftar <a href="register.php">disini</a></p></p>
 </fieldset>
@@ -127,3 +127,10 @@ value="<?php echo $password?>">
 </div>
 </body>
 </html>
+
+<?php 
+	if (isset($_POST['submit'])) {
+		
+     header("Location: index.html");
+	}
+?>

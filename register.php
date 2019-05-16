@@ -27,7 +27,7 @@ ergdsfgds
 	<div class="kotak_login">
 		<p class="tulisan_login">Silahkan Registrasi</p>
 
-		<form action="" method="post">
+		<form action="register.php" method="post">
 			<label>Nama/Username</label>
 			<input type="text" name="nama" class="form_login" placeholder="Nama/username...">
 
@@ -64,7 +64,7 @@ ergdsfgds
 			<br/>
 			<br/>
 			<center>
-				<a class="link" href="#"></a>
+				<a class="link" href="login.php">logIn</a>
 			</center>
 		</form>
 
