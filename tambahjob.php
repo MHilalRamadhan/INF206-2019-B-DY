@@ -1,3 +1,20 @@
+<?php
+
+$servername = "localhost";
+$database = "stevedore job";
+$username = "root";
+$password = "";
+$password_sha1 = sha1($password);
+// untuk tulisan bercetak tebal silakan sesuaikan dengan detail database Anda
+// membuat koneksi
+$conn = mysqli_connect($servername, $username, $password, $database);
+// mengecek koneksi
+if (!$conn) {
+    die("Koneksi gagal: " . mysqli_connect_error());
+}
+echo "Koneksi berhasil";
+mysqli_close($conn);
+?>
 <!DOCTYPE html>
 
 <link rel="stylesheet" href="styletj.css">
@@ -80,7 +97,7 @@
                 <div class="form-group">
                     <label for="Gaji" class="col-sm-3 control-label">Gaji Per Jam</label>
                     <div class="col-sm-9">
-                        <input type="Gaji" id="Gaji" placeholder="Rp.xxxxxxx" class="form-control">
+                        <input type="Gaji" id="Gaji" placeholder="Rp." class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
@@ -92,38 +109,19 @@
                 <div class="form-group">
                         <label for="Height" class="col-sm-3 control-label">Keterangan Nelayan</label>
                     <div class="col-sm-9">
-                        <input type="Keterangan" id="height" placeholder="Keterangan" class="form-control">
+                        <input type="Keterangannelayan" id="height" placeholder="Keterangan" class="form-control">
                     </div>
                 </div>
-
-                <div class="form-group">
-                    <label class="control-label col-sm-3">Jenis Pekerjaan</label>
-                    <div class="col-sm-6">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <label class="radio-inline">
-                                    <input type="radio" id="femaleRadio" value="Female">Angkut ikan
-                                </label>
-                            </div>
-                            <div class="col-sm-4">
-                                <label class="radio-inline">
-                                    <input type="radio" id="maleRadio" value="Male">Hitung Ikan
-                                </label>
-                            </div>
-                            <div class="col-sm-4">
-                                <label class="radio-inline">
-                                    <input type="radio" id="femaleRadio" value="Female">Pilah Ikan
-                                </label>
-                            </div>
-                            <div class="col-sm-4">
-                                <label class="radio-inline">
-                                    <input type="radio" id="femaleRadio" value="Female">Bersihkan Ikan
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- /.form-group -->
-
+                <br>
                 <button type="submit" class="btn btn-primary btn-block">SUBMIT</button>
             </form> <!-- /form -->
+            <?php 
+            if (isset($_POST['submit'])) {               
+                $conn->query("INSERT INTO tambahjob VALUES('$_POST[daftarpelabuhan]', '$_POST[jumlah]', '$_POST[jenis]', '$_POST[Keterangan]', '$_POST[Gaji]', '$_POST[phoneNumber]', '$_POST[Keterangan]', '$_POST[Keterangannelayan]' )");    
+            echo "<div class='btn btn-success'>";
+            echo "Data disimpan";
+            echo "</div>";
+            }
+        ?>
         </div> <!-- ./container -->
+</html>

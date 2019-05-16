@@ -1,3 +1,21 @@
+<?php
+  // periksa apakah user sudah login, cek kehadiran session name 
+  // jika tidak ada, redirect ke login.php
+  session_start();
+  if (!isset($_SESSION["tes"])) {
+     header("Location: login.php");
+  }
+
+  // buka koneksi dengan MySQL
+     include("koneksi.php");
+  
+   
+   $session = $_SESSION["tes"];
+    
+    $query  = "SELECT * FROM tabel_login WHERE nama = '$session' ";
+    
+ 
+?>
 
 <!DOCTYPE html>
 <!--
