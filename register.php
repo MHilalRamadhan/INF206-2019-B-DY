@@ -27,7 +27,7 @@ ergdsfgds
 	<div class="kotak_login">
 		<p class="tulisan_login">Silahkan Registrasi</p>
 
-		<form action="" method="post">
+		<form action="register.php" method="post">
 			<label>Nama/Username</label>
 			<input type="text" name="nama" class="form_login" placeholder="Nama/username...">
 
@@ -54,17 +54,17 @@ ergdsfgds
             <br>
             <br>
 			<label>Buat Password</label>
-			<input type="text" name="password" class="form_login" placeholder="Buat Password...">
+			<input type="password" name="password" class="form_login" placeholder="Buat Password...">
 
 			<label>Konfirmasi Password</label>
-			<input type="text" name="konfirmasipassword" class="form_login" placeholder="Konfirmasi Password...">
+			<input type="password" name="konfirmasipassword" class="form_login" placeholder="Konfirmasi Password...">
 			
 			<input type="submit" class="tombol_login" name="submit" value="DAFTAR">
 
 			<br/>
 			<br/>
 			<center>
-				<a class="link" href="#"></a>
+				<a class="link" href="login.php">logIn</a>
 			</center>
 		</form>
 
