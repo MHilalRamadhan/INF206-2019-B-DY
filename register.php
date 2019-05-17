@@ -21,7 +21,7 @@ echo "Koneksi berhasil";
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-ergdsfgds
+
 	<h1>NELAYAN<br/>Partner Job</h1>
 
 	<div class="kotak_login">
@@ -64,7 +64,7 @@ ergdsfgds
 			<br/>
 			<br/>
 			<center>
-				<a class="link" href="login.php">logIn</a>
+				<p>sudah punya akun masuk <a href="login.php">disini</a></p></p>
 			</center>
 		</form>
 
