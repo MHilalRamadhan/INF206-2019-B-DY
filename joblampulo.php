@@ -104,6 +104,7 @@ tr:nth-child(2n+3) {
   <th>NAMA PELABUHAN</th>
   <th>JUMLAH ORANG YANG DIBUTUHKAN</th>
   <th>JENIS PEKERJAAN</th>
+  <th>KERANGAN JENIS PEKERJAAN LAINNYA</th>
   <th>GAJI/UPAH</th>
   <th>NO HP</th>
   <th>KETERANGAN NELAYAN</th>
