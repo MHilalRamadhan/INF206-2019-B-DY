@@ -17,7 +17,7 @@ echo "Koneksi berhasil";
 <!DOCTYPE html>
 <html>
 <body>
-<link rel="stylesheet" href="styletj.css">
+<link rel="stylesheet" href="style.css">
 
 <div class="container">
             <form class="form-horizontal" role="form" action="" method="post">

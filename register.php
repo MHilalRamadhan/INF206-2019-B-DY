@@ -18,6 +18,7 @@ echo "Koneksi berhasil";
 <html>
 <head>
 	<title>Nelayan Partner Job</title>
+	
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>

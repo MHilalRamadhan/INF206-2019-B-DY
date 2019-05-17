@@ -54,7 +54,7 @@ $password = "";
 <title>Form Login</title>
 <style>
 body {
-background-color: #F8F8F8;
+background-color: #d5f0f3;
 }
 div.container {
 width: 380px;
@@ -95,38 +95,38 @@ box-shadow: 1px 0px 3px red ;
 }
 </style>
 </head>
-<body>
-<div class="container">
-<h1>Selamat Datang</h1>
-<h3>Nelayan Partner Job</h3>
+	<body>
+		<div class="container">
+	<h1>Selamat Datang</h1>
+	<h3>Nelayan Partner Job</h3>
 <?php
 // tampilkan error jika ada
 if ($pesan_error !== "") {
 echo "<div class=\"error\">$pesan_error</div>";
 }
 ?>
-<form action="index.html" method="post">
-<fieldset>
-<legend>Login</legend>
-<p>
-<label for="username">Username : </label>
-<input type="text" name="username" id="username"
-value="<?php echo $username ?>">
-</p>
-<p>
-<label for="password">Password : </label>
-<input type="password" name="password" id="password"
-value="<?php echo $password?>">
-</p>
-<p>
-<input type="submit" name="submit" value="Log In" >Login</a>
-</p>
-<p>belum punya akun daftar <a href="register.php">disini</a></p></p>
-</fieldset>
-</form>
-</div>
-</body>
-</html>
+	<form action="index.html" method="post">
+	<fieldset>
+		<legend>Login</legend>
+	<p>
+	<label for="username">Username : </label>
+	<input type="text" name="username" id="username"
+	value="<?php echo $username ?>">
+	</p>
+	<p>
+	<label for="password">Password : </label>
+	<input type="password" name="password" id="password"
+	value="<?php echo $password?>">
+	</p>
+	<p>
+	<input type="submit" name="submit" value="Log In" >Login</a>
+	</p>
+	<p>belum punya akun daftar <a href="register.php">disini</a></p></p>
+	</fieldset>
+	</form>
+	</div>
+	</body>
+	</html>
 
 <?php 
 	if (isset($_POST['submit'])) {
