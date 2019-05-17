@@ -92,7 +92,7 @@ tr:nth-child(2n+3) {
 
 <div class="container">
 <div id="header">
-  <h1 id="logo">Daftar pekerjaan dengan<span> Nelayan </span></h1>
+  <h1 id="logo">Pelabuhan Perikanan<span> Lampulo </span></h1>
   <p id="tanggal">
 
     <?php echo date("d M Y"); ?></p>
