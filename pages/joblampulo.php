@@ -12,7 +12,7 @@
   <link href="style.css" rel="stylesheet" >
   <style>
   body {
-  background-color: #F8F8F8;
+  background-color: #d5f0f3;
 }
 div.container {
   width: 960px;
@@ -99,16 +99,20 @@ tr:nth-child(2n+3) {
 </div>
 <hr>
 <h2>Daftar Pekerjaan</h2>
- <table border="1">
-  <tr>
-  <th>NAMA PELABUHAN</th>
-  <th>JUMLAH ORANG YANG DIBUTUHKAN</th>
-  <th>JENIS PEKERJAAN</th>
-  <th>KERANGAN JENIS PEKERJAAN LAINNYA</th>
-  <th>GAJI/UPAH</th>
-  <th>NO HP</th>
-  <th>KETERANGAN NELAYAN</th>
-  </tr>
+      <div class="scrollable">
+        <table>
+          <thead>
+            <tr>
+              <th>NAMA PELABUHAN</th>
+              <th>JUMLAH ORANG YANG DIBUTUHKAN</th>
+              <th>JENIS PEKERJAAN</th>
+              <th>KERANGAN JENIS PEKERJAAN LAINNYA</th>
+              <th>GAJI/UPAH</th>
+              <th>NO HP</th>
+              <th>KETERANGAN NELAYAN</th>
+              </tr>
+          </tbody>
+        </table>
     <?php
       if(mysqli_num_rows($query)>0){
         while ($data = mysqli_fetch_array($query)) {
