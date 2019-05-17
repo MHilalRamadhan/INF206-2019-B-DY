@@ -4,7 +4,7 @@ $servername = "localhost";
 $database = "stevedore job";
 $username = "root";
 $password = "";
-$password_sha1 = sha1($password);
+// $password_sha1 = sha1($password);
 // untuk tulisan bercetak tebal silakan sesuaikan dengan detail database Anda
 // membuat koneksi
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -13,5 +13,4 @@ if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
 echo "Koneksi berhasil";
-mysqli_close($conn);
 ?>
