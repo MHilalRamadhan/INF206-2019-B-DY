@@ -1,8 +1,8 @@
 <?php
   include "koneksi.php";
 
-  $query = mysqli_query($conn,"SELECT * FROM tambahjob WHERE daftarpelabuhan = 'lampulo'");
-    // $conn->query("SELECT * FROM tambahjob WHERE daftarpelabuhan = 'lampulo'");
+ $query = mysqli_query($conn,"SELECT * FROM tambahjob WHERE daftarpelabuhan = 'lampulo'");
+    //$conn->query("SELECT * FROM tambahjob WHERE daftarpelabuhan = 'lampulo'");
 ?>
 <!DOCTYPE html>
 <html>
