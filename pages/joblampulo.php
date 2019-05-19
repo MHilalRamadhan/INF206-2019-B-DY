@@ -110,6 +110,7 @@ tr:nth-child(2n+3) {
               <th>GAJI/UPAH</th>
               <th>NO HP</th>
               <th>KETERANGAN NELAYAN</th>
+              <th><input type="submit" class="tombol_login" name="submit" href="login.php" value="Buka Profil" ></th>
               </tr>
           </tbody>
         </table>
