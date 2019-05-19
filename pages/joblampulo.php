@@ -1,5 +1,18 @@
 <?php
-  include "koneksi.php";
+  $servername = "localhost";
+$database = "stevedore job";
+$username = "root";
+$password = "";
+// $password_sha1 = sha1($password);
+// untuk tulisan bercetak tebal silakan sesuaikan dengan detail database Anda
+// membuat koneksi
+$conn = mysqli_connect($servername, $username, $password, $database);
+// mengecek koneksi
+if (!$conn) {
+    die("Koneksi gagal: " . mysqli_connect_error());
+}
+echo "Koneksi berhasil";
+
 
  $query = mysqli_query($conn,"SELECT * FROM tambahjob WHERE daftarpelabuhan = 'lampulo'");
     //$conn->query("SELECT * FROM tambahjob WHERE daftarpelabuhan = 'lampulo'");
@@ -15,11 +28,11 @@
   background-color: #d5f0f3;
 }
 div.container {
-  width: 960px;
+  width: 1150px;
   padding: 10px 50px 20px;
   background-color: white;
-  margin: 20px auto;
-  box-shadow: 1px 0px 10px, -1px 0px 10px ;
+  margin: 10px auto;
+  box-shadow: 1px 1px 10px, -1px 1px 10px ;
 }
 h1,h2,h3 {
   text-align: center;
@@ -98,11 +111,9 @@ tr:nth-child(2n+3) {
     <?php echo date("d M Y"); ?></p>
 </div>
 <hr>
-<h2>Daftar Pekerjaan</h2>
-      <div class="scrollable">
-        <table>
-          <thead>
-            <tr>
+<h2>Profil</h2>
+ <table border="1">
+  <tr>
               <th>NAMA PELABUHAN</th>
               <th>JUMLAH ORANG YANG DIBUTUHKAN</th>
               <th>JENIS PEKERJAAN</th>
@@ -110,7 +121,7 @@ tr:nth-child(2n+3) {
               <th>GAJI/UPAH</th>
               <th>NO HP</th>
               <th>KETERANGAN NELAYAN</th>
-              <th><input type="submit" class="tombol_login" name="submit" href="login.php" value="Buka Profil" ></th>
+              <th>TAMPILKAN PROFIL</th>
               </tr>
           </tbody>
         </table>
