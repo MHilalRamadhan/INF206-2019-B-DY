@@ -111,7 +111,7 @@ tr:nth-child(2n+3) {
     <?php echo date("d M Y"); ?></p>
 </div>
 <hr>
-<h2>Profil</h2>
+<h2>Daftar Pekerjaan</h2>
  <table border="1">
   <tr>
               <th>NAMA PELABUHAN</th>
@@ -122,10 +122,9 @@ tr:nth-child(2n+3) {
               <th>NO HP</th>
               <th>KETERANGAN NELAYAN</th>
               <th>TAMPILKAN PROFIL</th>
+
               </tr>
-          </tbody>
-        </table>
-    <?php
+               <?php
       if(mysqli_num_rows($query)>0){
         while ($data = mysqli_fetch_array($query)) {
     ?>
@@ -137,12 +136,14 @@ tr:nth-child(2n+3) {
       <td><?php echo $data['gaji']; ?></td>
       <td><?php echo $data['phoneNumber']; ?></td>
       <td><?php echo $data['Keterangannelayan']; ?></td>
+      <td><a href="../tampilprofil.php" class="btn btn-danger">Buka Profil</a></td>
     </tr>
     <?php 
         }
       }
      ?>
-  </table>
+
+        </table>
   <div id="footer">
     Nelayan Partner Job
   </div>
