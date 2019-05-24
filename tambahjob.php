@@ -17,11 +17,12 @@ echo "Koneksi berhasil";
 <!DOCTYPE html>
 <html>
 <body>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styleok.css">
 
-<div class="container">
+<div class="kotak_login ">
             <form class="form-horizontal" role="form" action="" method="post">
-                <h2>Tambah Job</h2>
+                <fieldset>
+                        <legend>Login</legend>
                 <div class="form-group">
 
                     <label>Username Nelayan</label>
@@ -105,7 +106,7 @@ echo "Koneksi berhasil";
                 <div class="form-group">
                     <label for="Gaji" class="form_login">Upah Per Jam</label>
                     <div class="form_login" >
-                        <input type="text" name="gaji" class="tambah_job" placeholder="Jumlah Upah per Jam..">
+                        <input type="text" name="gaji" class="form_login" placeholder="Jumlah Upah per Jam..">
                     </div>
                 </div>
                 <br>
@@ -126,6 +127,7 @@ echo "Koneksi berhasil";
                 <!-- /.form-group -->
 
                 <input type="submit" class="tombol_login" name="submit" value="TAMBAH">
+            </fieldset>
             </form> <!-- /form -->
             <?php 
             if (isset($_POST['submit'])) {

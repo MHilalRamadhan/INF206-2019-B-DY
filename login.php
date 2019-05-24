@@ -52,59 +52,20 @@ $password = "";
 <head>
 <meta charset="UTF-8">
 <title>Form Login</title>
-<style>
-body {
-background-color: #d5f0f3;
-}
-div.container {
-width: 380px;
-padding: 10px 50px 80px;
-background-color: white;
-margin: 20px auto;
-box-shadow: 1px 0px 10px, -1px 0px 10px ;
-}
-h1,h3 {
-text-align: center;
-font-family: Cambria, "Times New Roman", serif;
-}
-p {
-margin:0;
-}
-fieldset {
-padding:20px;
-width: 240px;
-margin: auto;
-}
-input {
-margin-bottom:10px;
-}
-input[type=submit] {
-float:right;
-}
-label {
-width:80px;
-float:left;
-margin-right:10px;
-}
-.error {
-background-color: #FFECEC;
-padding: 10px 15px;
-margin: 0 0 20px 0;
-border: 1px solid red;
-box-shadow: 1px 0px 3px red ;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="styleok.css">
 </head>
 	<body>
 		<div class="container">
-	<h1>Selamat Datang</h1>
-	<h3>Nelayan Partner Job</h3>
+	<h1>NELAYAN<br/>Partner Job</h1>
+	<!--<h3>Nelayan Partner Job</h3>-->
 <?php
 // tampilkan error jika ada
+
 if ($pesan_error !== "") {
 echo "<div class=\"error\">$pesan_error</div>";
 }
 ?>
+	<div class="kotak_login">
 	<form action="index.html" method="post">
 	<fieldset>
 		<legend>Login</legend>
@@ -119,7 +80,7 @@ echo "<div class=\"error\">$pesan_error</div>";
 	value="<?php echo $password?>">
 	</p>
 	<p>
-	<input type="submit" name="submit" value="Log In" >Login</a>
+	<input type="submit" name="submit" value="Log In" ></a>
 	</p>
 	<p>belum punya akun daftar <a href="register.php">disini</a></p></p>
 	</fieldset>
