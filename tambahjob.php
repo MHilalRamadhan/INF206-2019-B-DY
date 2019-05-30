@@ -17,11 +17,12 @@ echo "Koneksi berhasil";
 <!DOCTYPE html>
 <html>
 <body>
-<link rel="stylesheet" href="styletj.css">
+<link rel="stylesheet" href="styleok.css">
 
-<div class="container">
+<div class="kotak_login ">
             <form class="form-horizontal" role="form" action="" method="post">
-                <h2>Tambah Job</h2>
+                <fieldset>
+                        <legend>Tambah Job</legend>
                 <div class="form-group">
 
                     <label>Username Nelayan</label>
@@ -31,7 +32,7 @@ echo "Koneksi berhasil";
                     <br>
                     <label for="NamaPelabuhan" class="form_login">Nama Pelabuhan</label>
                     <br>
-                    <select name="daftarpelabuhan" id="daftarpelabuhan">
+                    <select name="daftarpelabuhan" id="daftarpelabuhan" class="form_login" >
                         <option>Pilih Daftar Pelabuhan Perikanan</option>
                         <option value="lampulo">Lampulo</option>
                         <option value="ulelheu">Ule lheu</option>
@@ -98,14 +99,11 @@ echo "Koneksi berhasil";
                     <div class="col-sm-9">
                         <input type="text" name="keterangan" class="tambah_job" placeholder="Selain pilihan yang diatas">
                     </div>
-                </div>
-
-                </div>
-                <br>
-                <div class="form-group">
+                    <br>
+                    <div class="form-group">
                     <label for="Gaji" class="form_login">Upah Per Jam</label>
                     <div class="form_login" >
-                        <input type="text" name="gaji" class="tambah_job" placeholder="Jumlah Upah per Jam..">
+                        <input type="text" name="gaji" class="form_login" placeholder="Jumlah Upah per Jam..">
                     </div>
                 </div>
                 <br>
@@ -126,6 +124,12 @@ echo "Koneksi berhasil";
                 <!-- /.form-group -->
 
                 <input type="submit" class="tombol_login" name="submit" value="TAMBAH">
+                </div>
+
+                </div>
+                <br>
+                
+            </fieldset>
             </form> <!-- /form -->
             <?php 
             if (isset($_POST['submit'])) {
